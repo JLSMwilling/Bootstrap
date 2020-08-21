@@ -1,0 +1,163 @@
+body {
+    overflow-x: hidden;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+#palmbeachlogo {
+    width: 8rem;
+}
+
+#color {
+    background-color: #eeeeee;
+}
+
+.video {
+    width : 80%;
+    margin: auto;
+}
+
+.empty-div {
+    width           : 65vw;
+    height          : 3rem;
+    background-color: white;
+}
+
+.p-margin {
+    margin: 0;
+}
+
+
+
+.row {
+    display        : flex;
+    justify-content: center;
+}
+
+.cap {
+    margin: auto;
+}
+
+.orange-h2s {
+    color    : rgb(246, 137, 28);
+    }
+
+.aqua-h2s {
+    color    : rgb(94, 196, 213);
+    
+}
+
+.bg-aqua {
+    background-color: rgb(210, 229, 233);
+}
+
+.bg-orange {
+    background-color: rgba(246, 137, 28, 0.603);
+
+}
+
+.centered {
+    width : 65vw;
+    margin: 0 auto;
+}
+
+body .row #bg {
+    background-color: rgb(210, 229, 233) !important;
+}
+
+.flexx {
+    display        : flex;
+    justify-content: center;
+    width          : 80vw;
+}
+
+.card-flex{
+    display: flex;
+    justify-content: space-around;
+}
+form .row {
+    margin-right   : 0;
+    margin-left    : 0;
+    display        : flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 425px) {
+    .carousel{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-flex .card{
+        width: 60vw !important;
+    }
+
+    .heading{
+        display: none;
+    }
+
+    .orange-h2s .aqua-h2s{
+        font-size: 1vw;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    p {
+        font-size: 1.3vw;
+    }
+
+    .row label {
+        font-size: 1.3vw;
+    }
+
+    .nav-width {
+        width    : 5vw;
+        font-size: 1vw;
+    }
+
+    .navbar-nav a:last-child {
+        width: 9vw;
+    }
+
+    #palmbeachlogo {
+        width: 8vw;
+    }
+
+    #btn {
+        width: 5vw;
+    }
+}
+
+@media only screen and (min-width: 1062px) {
+    .cap {
+        width : 3vw;
+        height: 6vh;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (min-width: 1862px) {
+
+    .orange-h2s .aqua-h2s {
+        font-size: 2vw;
+    }
+
+    .heading{
+        font-size: 1vw;
+    }
+    .cap {
+        width : 2vw;
+        height: 4vh;
+        margin: auto;
+    }
+
+}
